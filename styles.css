@@ -1,0 +1,9 @@
+body{
+    font-family: 'Bruno Ace SC', cursive;
+}
+h1,h2,h3{
+    color: brown;
+}
+ol{
+    list-style-image: url(imagess/tiny-coffee-cup.gif);
+}
