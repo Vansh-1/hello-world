@@ -1,0 +1,30 @@
+  - name: Jira Deployment
+  # You may pin to the exact commit or the version.
+  # uses: Elfsquad/jira-deployment@9b755a35da2ad8fb9330885f9cad7072e3b245fb
+  uses: Elfsquad/jira-deployment@1.0.5
+  with:
+    # The oAuth client id for your Jira installation
+    client-id: 
+    # The oAuth client secret for your Jira installation
+    client-secret: 
+    # Base url of your Jira instance
+    base-url: 
+    # Comma delimited list of issue keys
+    issue-keys: 
+    # Display name of the deployment
+    display-name: # optional
+    # State of the deployment
+    state: # optional, default is successful
+    # Display name of the pipeline
+    pipeline-display-name: # optional
+    # Url of the pipeline
+    pipeline-url: # optional
+    # Id of the deployment
+    environment-id: # optional, default is production
+    # Environment of the deployment
+    environment-type: # optional, default is production
+    # Display name of the environment
+    environment-display-name: # optional, default is Production
+    # 
+    continue-on-error: # optional
+          
